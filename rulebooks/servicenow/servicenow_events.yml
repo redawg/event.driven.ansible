@@ -34,7 +34,7 @@
       condition: event.payload.short_description  == "Aschoenf - AAP Linux Provision"
       action:
         run_job_template:
-          name: "OpenShift / CNV / Create RHEL9 VM"
+          name: "OpenShift-CreateVM"
           organization: "Default"
           job_args:
             extra_vars:
